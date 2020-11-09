@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama</title>
+    <style>
+        .banner {
+            height: 80vh;
+            border: 0px solid;
+            background-image: url(Image/laptop-3190194_1920.jpg);
+
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .banner:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(20, 143, 119, .6);
+
+
+        }
+
+        .banner h2 {
+            color: #fff;
+            z-index: 1;
+            padding: 5px 10px;
+            border: 2px solid #fff;
+        }
+
+        section {
+            padding: 50px 0;
+        }
+
+        footer {
+            padding: 30px 0;
+            background-color: rgba(20, 143, 119);
+            color: #fff;
+
+        }
+    </style>
+</head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: rgb(20, 143, 119);">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Selfi Winayati</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item active ">
+                        <a class="nav-link text-white" href="">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <section class="banner">
+        <h2>Selamat Datang Di Website Selfi</h2>
+    </section>
+    <section class="about text-center">
+        <div class="container">
+            <h3>ABOUT</h3>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, <br> sunt temporibus maxime quae
+                impedit
+                corrupti esse. Labore atque iusto ipsa at, <br> assumenda reiciendis voluptates
+                voluptatum vero delectus magni
+                esse! In?
+            </p>
+            <table align="center">
+                <tbody>
+                    <tr>
+                        <td rowspan="8"><img src="Image/download.jfif" width="200" height="285"></td>
+                        <td style="text-align: left;"> Nama</td>
+                        <td>:</td>
+                        <td style="text-align: left;"> Selfi Winayati</td>
+                    </tr>
+                    <tr style="text-align: left;">
+
+                        <td> Ttl</td>
+                        <td>:</td>
+                        <td> Monggo 17 Februari 2000</td>
+                    </tr>
+                    <tr style="text-align: left;">
+
+                        <td> Hobbi</td>
+                        <td>:</td>
+                        <td> Membaca Dan Olahraga</td>
+                    </tr>
+                    <tr style="text-align: left;">
+
+                        <td> Nim</td>
+                        <td>:</td>
+                        <td> 1810530157</td>
+                    </tr>
+                    <tr style="text-align: left;">
+
+                        <td> Kelas</td>
+                        <td>:</td>
+                        <td> D</td>
+                    </tr>
+                    <tr style="text-align: left;">
+
+                        <td> Semester</td>
+                        <td>:</td>
+                        <td> Lima V</td>
+                    </tr>
+                    <tr style="text-align: left;">
+
+                        <td> Jurusan</td>
+                        <td>:</td>
+                        <td> Ilkom</td>
+                    </tr>
+                    <tr style="text-align: left;">
+
+                        <td> Kampus</td>
+                        <td>:</td>
+                        <td> Universitas Bumigora Mataram</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+    </section>
+    <section class="contact">
+        <h3 class="text-center">CONTACT INFO</h3>\
+        <div class="container">
+            <div class="row">
+                <div class="col-3 text-center">
+                    <p>
+                        WhatsApp <br>
+                        <a href="https://wa.me/6282341348107" target="_blank">(+62)82341348107</a>
+                    </p>
+
+                </div>
+                <div class="col-3 text-center">
+                    <p>
+                        Facebook <br>
+                        <a href="https://www.facebook.com/nural.azhar.75" target="_blank">Winayati</a>
+                    </p>
+
+                </div>
+                <div class="col-3 text-center">
+                    <p>
+                        Instagram <br>
+                        <a href="https://www.instagram.com/p/BzQWUblDHtY/?igshid=qp3o8h8eo32"
+                            target="_blank">selfi_arafik17</a>
+                    </p>
+
+                </div>
+                <div class="col-3 text-center">
+                    <p>
+                        Gmail <br>
+                        <a href="https://mail.google.com/mail/u/1/#inbox" target="_blank">Selfiwinayarti@gmail.com</a>
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer style="margin-top: -40px; text-align: center;">
+        <small>@Selfi Winayati</small>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>
